@@ -13,7 +13,6 @@ public class SphereMovement : MonoBehaviour
     public float speed;
     public float timer;
 
-    // Use this for initialization
     void Start()
     {
         StartVector = new Vector3D(0, 2, -5);
@@ -23,7 +22,6 @@ public class SphereMovement : MonoBehaviour
         speed = 12.0f;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (StarCountDown.play)

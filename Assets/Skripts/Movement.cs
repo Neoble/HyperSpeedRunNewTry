@@ -20,7 +20,7 @@ public class Movement : MonoBehaviour
     Vector3D StartVector;
     Vector3D UpdatePosition;
     Vector3D MovementVector;
-    // Use this for initialization
+
     void Start()
     {
         StartVector = new Vector3D(0, 2, 0);

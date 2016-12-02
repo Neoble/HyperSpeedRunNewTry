@@ -10,7 +10,6 @@ public class SpeedDown : MonoBehaviour
     public float newSpeed;
     private bool collided;
 
-    // Use this for initialization
     void Start()
     {
         colliders = GetComponent<MotherCollider>();
@@ -24,19 +23,10 @@ public class SpeedDown : MonoBehaviour
         {
             collided = false;
             obj.GetComponent<SphereMovement>().speed = newSpeed;
-            if (!collided)
-            {
-                if (!SoundsourceSpeedDown.isPlaying)
-                {
-                    SoundsourceSpeedDown.PlayOneShot(audioContainer.au_slower);
-                    collided = true;
-                }
-            }
+
 
         }
     }
-
-    // Update is called once per frame
     void Update()
     {
 

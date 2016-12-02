@@ -10,7 +10,6 @@ public class SpeedUp : MonoBehaviour
     public float newSpeed;
     private bool collided;
 
-    // Use this for initialization
     void Start()
     {
         colliders = GetComponent<MotherCollider>();
@@ -35,7 +34,6 @@ public class SpeedUp : MonoBehaviour
         }
     }
 
-    // Update is called once per frame
     void Update()
     {
 

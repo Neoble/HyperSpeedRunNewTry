@@ -9,7 +9,7 @@ public class Jump : MonoBehaviour
     private AudioSource SoundsourceJump;
     private float timer;
     private bool isJumping;
-    // Use this for initialization
+
     void Start()
     {
         colliders = GetComponent<MotherCollider>();
@@ -30,7 +30,6 @@ public class Jump : MonoBehaviour
 
         }
     }
-    // Update is called once per frame
     public void DoJump()
     {
         if (isJumping == true)

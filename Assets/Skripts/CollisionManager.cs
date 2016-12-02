@@ -73,7 +73,6 @@ public class CollisionManager : MonoBehaviour
         float distanceX;
         float distanceY;
         float distanceZ;
-        //closest Point to sphere center
         distanceX = Mathf.Max(ColliderB.WorldLeft, Mathf.Min(ColliderA.WorldCenter.x, ColliderB.WorldRight));
         distanceY = Mathf.Max(ColliderB.WorldBottom, Mathf.Min(ColliderA.WorldCenter.y, ColliderB.WorldTop));
         distanceZ = Mathf.Max(ColliderB.WorldFront, Mathf.Min(ColliderA.WorldCenter.z, ColliderB.WorldBack));

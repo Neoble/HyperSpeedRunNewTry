@@ -6,13 +6,12 @@ public class MenuScript : MonoBehaviour
 {
 
     public GameObject Menuobject;
-    // Use this for initialization
+
     void Start()
     {
         Menuobject.SetActive(false);
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))

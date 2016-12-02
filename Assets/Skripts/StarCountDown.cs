@@ -10,14 +10,12 @@ public class StarCountDown : MonoBehaviour
     public static bool play = false;
     private bool textbool = true;
 
-    // Use this for initialization
     void Start()
     {
         menueObjekt.SetActive(true);
         textObjekt.text = string.Empty;
     }
 
-    // Update is called once per frame
     void Update()
     {
         if (textbool)

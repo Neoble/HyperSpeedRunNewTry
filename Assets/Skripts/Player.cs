@@ -11,7 +11,6 @@ public class Player : MonoBehaviour
     private bool collided;
     private float timer;
 
-    // Use this for initialization
     void Start()
     {
         colliders = GetComponent<MotherCollider>();
@@ -71,7 +70,6 @@ public class Player : MonoBehaviour
 
     }
 
-    // Update is called once per frame
     void Update()
     {
       
